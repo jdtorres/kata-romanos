@@ -19,5 +19,6 @@ class Conversor
 		return "III" if numero == 3
 		return "IV" if numero == 4
 		return "V" if numero == 5
+		return "VI" if numero == 6
 	end
 end
