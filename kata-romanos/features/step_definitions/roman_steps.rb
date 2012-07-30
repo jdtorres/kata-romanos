@@ -33,6 +33,8 @@ class Conversor
       "VII"
       when 8 then
       "VIII"
+      when 9 then
+      "IX"
    	   end
 	end
 end
