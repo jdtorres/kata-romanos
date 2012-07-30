@@ -13,7 +13,9 @@ Then /^lo convierte a ([A-Z]*)/ do |valor_romano|
 end
 
 class Conversor
+
 	def convertir_romano(numero)
+
 	   case numero
    		when 1 then
    		"I"
@@ -27,6 +29,8 @@ class Conversor
    		"V"
    		when 6 then
    		"VI"
+      when 7 then
+      "VII"
    	   end
 	end
 end
