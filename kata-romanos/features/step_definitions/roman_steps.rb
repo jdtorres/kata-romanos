@@ -18,7 +18,7 @@ class Conversor
 
   num_rom = ["I","II","III","IV","V","VI","VII","VIII","IX","X",
             "XI","XII","XIII","XIV","XV","XVI","XVII","XVIII",
-            "XIX"]
+            "XIX","XX"]
 
   for i in 0...num_rom.length
     return num_rom[ num-1 ];
