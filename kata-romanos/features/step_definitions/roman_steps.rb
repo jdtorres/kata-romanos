@@ -14,29 +14,13 @@ end
 
 class Conversor
 
-	def convertir_romano(numero)
+	def convertir_romano(num)
 
-	   case numero
-   		when 1 then
-   		"I"
-   		when 2 then
-   		"II"
-   		when 3 then
-   		"III"
-   		when 4 then
-   		"IV"
-   		when 5 then
-   		"V"
-   		when 6 then
-   		"VI"
-      when 7 then
-      "VII"
-      when 8 then
-      "VIII"
-      when 9 then
-      "IX"
-      when 10 then
-      "X"
-   	   end
+  num_rom = ["I","II","III","IV","V","VI","VII","VIII","IX","X"]
+
+  for i in 0...num_rom.length
+    return num_rom[ num-1 ];
+  end
+
 	end
 end
