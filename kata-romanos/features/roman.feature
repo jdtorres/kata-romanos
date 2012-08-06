@@ -28,3 +28,4 @@ Scenario Outline: Convertir <arabigo>
 	| 16	  | XVI     |
 	| 17	  | XVII    |
 	| 18	  | XVIII   |
+	| 19	  | XIX     |
